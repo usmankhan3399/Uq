@@ -1,0 +1,103 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  padding-bottom: 50px;
+  background-color: #e8f3f4;
+
+  gap: 30px;
+}
+.about-content {
+  flex: 1;
+}
+.about-text {
+  margin-top: 50px !important;
+  padding: 0 35px;
+}
+
+.about-text h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #2a6369;
+  margin: 50px 0;
+}
+
+.about-description {
+  font-size: 1.2em;
+  margin: 40px 0;
+  padding-right: 100px;
+  line-height: 1.2;
+}
+
+.about-subtext {
+  font-size: 1em;
+  color: #666;
+  padding-right: 100px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  padding-right: 100px;
+  gap: 10px;
+}
+.about-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.about-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.about-list li::before {
+  content: "✓";
+  color: #4b89dc; /* Adjust color as needed */
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.about-images {
+  flex: 1;
+  position: relative;
+  height: 400px; /* Set a height to help with positioning */
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 70px;
+}
+
+.about-image {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.image1 {
+  /* Move to the left */
+  z-index: 1;
+  position: absolute; /* Position the second image absolutely */
+  /* top: 190px; */
+  bottom: -75px;
+  left: 30px;
+  width: 55%;
+  max-height: 300px;
+}
+
+.image2 {
+  /* Move to the right */
+  position: relative;
+  /* display: flex; */
+  /* justify-content: right !important; */
+  flex: 0.7;
+  /* left: 150px; */
+  z-index: 0;
+  width: 65%;
+  max-height: 400px;
+  background-size: cover;
+}

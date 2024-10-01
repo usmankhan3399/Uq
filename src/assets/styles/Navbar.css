@@ -1,0 +1,83 @@
+.main-box {
+  position: relative !important;
+}
+.navbar {
+  position: absolute !important;
+  width: 1288px !important;
+  height: 88px !important;
+  top: 44px;
+  left: 76px;
+}
+.navbar-grid {
+  width: 100%;
+  overflow: hidden;
+}
+.navbar-menu {
+  width: 60% !important;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.logo-image {
+  padding: 5px;
+  width: 225px !important;
+  height: 88px !important;
+}
+
+.rtl {
+  direction: rtl;
+  text-align: right; /* Align text to the right */
+}
+
+.ltr {
+  direction: ltr;
+  text-align: left; /* Align text to the left */
+}
+.language-toggle-btn {
+  max-width: 58px;
+  height: 28px !important;
+  color: black !important;
+  background-color: transparent !important;
+}
+.flag-icon {
+  width: 22.98px;
+  height: 22.98px;
+}
+
+@media (max-width: 768px) {
+  .logo-image {
+    width: 150px !important;
+    height: 60px !important;
+  }
+}
+
+@media (max-width: 980px) {
+  .logo-image {
+    width: 200px !important;
+    height: 70px !important;
+  }
+  .navbar-menu {
+    width: 45% !important;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .navbar-menu-items {
+    gap: 8px !important;
+  }
+  .navbar-menu-items .MuiTypography-h2 {
+    font-size: 14px !important;
+  }
+  .get-in-touch-btn {
+    width: 120px !important;
+    font-size: 12px !important;
+    flex-wrap: nowrap !important;
+    padding: 0 !important;
+  }
+}
+@media (max-width: 475px) {
+  .logo-image {
+    width: 150px !important;
+    height: 60px !important;
+  }
+}

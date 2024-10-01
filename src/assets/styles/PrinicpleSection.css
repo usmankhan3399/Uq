@@ -1,0 +1,68 @@
+/* LogoSection.css */
+
+.logo-section {
+  display: flex;
+  gap: 50px;
+  position: absolute;
+  justify-content: space-between;
+  background-color: white;
+  width: 75%;
+  max-width: 1920px;
+  /* height: 275px; */
+  /* top: 572px; */
+  top: -130px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 30px;
+  /* transform: translateY(0); */
+  /* margin: 0 auto; */
+  /* left: 125px; */
+  border-radius: 40px;
+  box-shadow: 0px 4px 9.7px -8px #2a6369;
+  z-index: 1;
+}
+.logo-heading {
+  /* height: 51px; */
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  /* line-height: 51px; */
+  color: #2a6369;
+}
+.logo-item {
+  text-align: center;
+
+  max-width: 20%;
+}
+
+.logo-item img {
+  /* text-align: center; */
+  /* width: auto; */
+  margin-bottom: 20px;
+}
+
+.mission-image {
+  width: 45.38px;
+  height: 75.95px;
+}
+.values-image {
+  width: 67px;
+  height: 75px;
+}
+.vision-image {
+  width: 47px;
+  height: 72px;
+}
+.goals-image {
+  width: 80px;
+  height: 80px;
+}
+
+.logo-description {
+  color: #000000;
+  margin-top: 10px !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px !important;
+  text-align: center;
+  text-overflow: ellipsis;
+}

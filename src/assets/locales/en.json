@@ -1,0 +1,117 @@
+{
+  "navbar": {
+    "menu": {
+      "about": "About us",
+      "projects": "New Projects",
+      "blog": "Blog",
+      "virtualTours": "Virtual Tours",
+      "contact": "Contact"
+    },
+    "button": "Get In Touch"
+  },
+
+  "bannertext": {
+    "title": "UQ Platform for ",
+    "and": "&",
+    "highlightedTitle": {
+      "landInvestments": "Land Investments",
+      "business": "Business"
+    },
+    "subtitle": "Driving Excellence in Land Investment and Business Growth."
+  },
+
+  "principleSection": {
+    "vision": {
+      "title": "Vision",
+      "description": "To be a leading platform in land investment and business, fostering global innovation and excellence."
+    },
+    "mission": {
+      "title": "Mission",
+      "description": "Empowering investors and businesses with opportunities, insights, and strategies to drive growth, create value, and foster sustainable development."
+    },
+    "goals": {
+      "title": "Goals",
+      "description": "Enhance investment excellence, foster innovation, and strengthen community growth."
+    },
+    "values": {
+      "title": "Values",
+      "description": "Trust, innovation, and excellence in every opportunity."
+    }
+  },
+  "virtualTours": {
+    "title": "Virtual Tours",
+    "places": [
+      {
+        "name": "Makkah",
+        "image": "/images/Makkah.jpg",
+        "link": "https://tourmakkah.viewin360.co/share/collection/7Z4tY?logo=1&info=0&logosize=40&fs=1&vr=1&zoom=1&autorotate=-0.06&thumbs=3&margin=30&alpha=0.89&inst=0"
+      },
+      {
+        "name": "Madina",
+        "image": "/images/Madina.jpg",
+        "link": "https://tourmakkah.viewin360.co/share/collection/7Z4tY?logo=1&info=0&logosize=40&fs=1&vr=1&zoom=1&autorotate=-0.06&thumbs=3&margin=30&alpha=0.89&inst=0"
+      },
+      {
+        "name": "Riyadh",
+        "image": "/images/Riyadh.jpg",
+        "link": "https://tourmakkah.viewin360.co/share/collection/7Z4tY?logo=1&info=0&logosize=40&fs=1&vr=1&zoom=1&autorotate=-0.06&thumbs=3&margin=30&alpha=0.89&inst=0"
+      },
+      {
+        "name": "Taif",
+        "image": "/images/Taif.jpg",
+        "link": "https://tourmakkah.viewin360.co/share/collection/7Z4tY?logo=1&info=0&logosize=40&fs=1&vr=1&zoom=1&autorotate=-0.06&thumbs=3&margin=30&alpha=0.89&inst=0"
+      },
+      {
+        "name": "Dammam",
+        "image": "/images/Dammam.jpg",
+        "link": "https://tourmakkah.viewin360.co/share/collection/7Z4tY?logo=1&info=0&logosize=40&fs=1&vr=1&zoom=1&autorotate=-0.06&thumbs=3&margin=30&alpha=0.89&inst=0"
+      }
+    ]
+  },
+  "newProjects": {
+    "title": "New Projects",
+    "images": [
+      {
+        "heading": "Quba Mosque",
+        "details": "The Quba Mosque is a mosque located in Medina, in the Hejaz region of Saudi Arabia."
+      },
+      {
+        "heading": "Uhud Mountain",
+        "details": "Mount Uhud is a mountain north of Medina, in the Hejazi region of Saudi Arabia."
+      },
+      {
+        "heading": "Al-Baqi Cemetery",
+        "details": "Jannat al-Baqī is the oldest and first Islamic cemetery of Medina located in the Hejazi region of present-day Saudi Arabia."
+      },
+      {
+        "heading": "Desert View",
+        "details": "Experience the vast expanse of arid landscape, showcasing sweeping stretches of sand and rocky terrain under an expansive sky, situated in the heart of the desert region."
+      },
+      {
+        "heading": "Sky View",
+        "details": "Experience the beauty of vibrant sunrises and sunsets as you immerse yourself in the tranquility of the expansive sky."
+      },
+      {
+        "heading": "Mountain View",
+        "details": "Experience the serenity of nature as you explore breathtaking landscapes and enjoy the crisp mountain air."
+      },
+      {
+        "heading": "Night View",
+        "details": "Experience the tranquility of the evening as you take in illuminated landscapes and the magic of the moonlit horizon."
+      }
+    ],
+    "buttonText": "View"
+  },
+  "contactForm": {
+    "title": "Get in Touch",
+    "subheading": "Fill up the form and our Team will get back to you within 24 hours",
+    "fields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Write your message..."
+    },
+    "buttonText": "Submit"
+  }
+}

@@ -1,0 +1,188 @@
+.virtual-tours-section {
+  /* position: absolute; */
+  /* width: 100%; */
+  /* max-width: 1440px; */
+  /* height: 647px; */
+  /* height: auto; */
+  padding: 40px 0;
+  /* top: 704px; */
+  background-color: #e8f3f4;
+  z-index: 0;
+}
+.virtual-tours-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 70px !important;
+  font-weight: 600 !important;
+  position: relative;
+  color: #2a6369;
+  text-wrap: nowrap;
+}
+
+.virtual-tours-heading::before,
+.virtual-tours-heading::after {
+  content: "";
+  /* flex: 1; */
+  width: 140px;
+  height: 2px;
+  background-color: #aa8950; /* Color of the line */
+  margin: 0 20px;
+}
+
+.slider-section {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden; /* Prevent overflow causing scrollbars */
+}
+/* .slider-section  */
+.slider-card {
+  position: relative;
+  height: 320px; /* Keep the height consistent */
+  width: 100%; /* Use full width of the parent */
+  max-width: 436px; /* Set a maximum width for each card */
+  flex: 0 0 auto; /* Prevent flex items from growing/shrinking */
+  margin-right: 20px; /* Add some space between cards */
+}
+
+.slider-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-text-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Optional dark overlay */
+  text-align: center;
+  color: white;
+}
+
+.card-heading {
+  margin: 0;
+  font-size: 16px !important;
+  line-height: normal !important;
+  padding: 5px;
+  background-color: rgb(193 151 66 / 69%);
+  border-radius: 4px !important;
+}
+.card-heading:hover {
+  transform: scale(1.1);
+}
+.card-text {
+  font-size: 24px !important;
+  margin-top: 10px !important;
+  line-height: normal !important;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #e8f3f4;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 980px) {
+  .virtual-tours-section {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    max-width: 100%;
+  }
+  .slider-card {
+    max-width: 50%;
+  }
+  .slider-card img {
+    max-width: cover;
+  }
+  .card-heading {
+    font-size: 18px !important;
+  }
+  .card-text {
+    font-size: 24px !important;
+  }
+  .virtual-tours-heading {
+    font-size: 20px;
+  }
+
+  .virtual-tours-heading::before,
+  .virtual-tours-heading::after {
+    width: 90px; /* Smaller lines for mobile */
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 479px) {
+  .swiper-slide {
+    max-width: 1440px;
+  }
+  .slider-card {
+    max-width: 100%;
+  }
+  .slider-card img {
+    max-width: cover;
+  }
+  .card-heading {
+    font-size: 18px !important;
+  }
+  .card-text {
+    font-size: 24px !important;
+  }
+  .virtual-tours-heading {
+    font-size: 20px;
+  }
+
+  .virtual-tours-heading::before,
+  .virtual-tours-heading::after {
+    width: 90px; /* Smaller lines for mobile */
+    margin: 0 10px;
+  }
+  .virtual-tours-section {
+    /* padding-top: 30px; */
+    padding-bottom: 50px;
+  }
+}
+
+.image-card {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 320px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}

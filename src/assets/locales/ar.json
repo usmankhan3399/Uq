@@ -1,0 +1,117 @@
+{
+  "navbar": {
+    "menu": {
+      "about": "معلومات عنا",
+      "projects": "مشاريع جديدة",
+      "blog": "مدونة",
+      "virtualTours": "جولات افتراضية",
+      "contact": "اتصل بنا"
+    },
+    "button": "تواصل معنا"
+  },
+
+  "bannertext": {
+    "title": "منصة UQ للاستثمار في الأراضي والأعمال",
+    "and": "و",
+    "highlightedTitle": {
+      "landInvestments": "الاستثمارات العقارية",
+      "business": "الأعمال"
+    },
+    "subtitle": "تحقيق التميز في الاستثمار العقاري ونمو الأعمال."
+  },
+
+  "principleSection": {
+    "vision": {
+      "title": "الرؤية",
+      "description": "أن نكون منصة رائدة في الاستثمار العقاري والأعمال، وتعزيز الابتكار والتميز العالمي."
+    },
+    "mission": {
+      "title": "الرسالة",
+      "description": "تمكين المستثمرين والأعمال من خلال الفرص والرؤى والاستراتيجيات لدفع النمو، وخلق القيمة، وتعزيز التنمية المستدامة."
+    },
+    "goals": {
+      "title": "الأهداف",
+      "description": "تعزيز التميز في الاستثمار، وتعزيز الابتكار، وتقوية نمو المجتمع."
+    },
+    "values": {
+      "title": "القيم",
+      "description": "الثقة، والابتكار، والتميز في كل فرصة."
+    }
+  },
+  "virtualTours": {
+    "title": "جولات افتراضية",
+    "places": [
+      {
+        "name": "مكة",
+        "image": "/images/Makkah.jpg",
+        "link": "https://tourmakkah.viewin360.co/share/collection/7Z4tY?logo=1&info=0&logosize=40&fs=1&vr=1&zoom=1&autorotate=-0.06&thumbs=3&margin=30&alpha=0.89&inst=0"
+      },
+      {
+        "name": "المدينة",
+        "image": "/images/Madina.jpg",
+        "link": "https://tourmakkah.viewin360.co/share/collection/7Z4tY?logo=1&info=0&logosize=40&fs=1&vr=1&zoom=1&autorotate=-0.06&thumbs=3&margin=30&alpha=0.89&inst=0"
+      },
+      {
+        "name": "الرياض",
+        "image": "/images/Riyadh.jpg",
+        "link": "https://tourmakkah.viewin360.co/share/collection/7Z4tY?logo=1&info=0&logosize=40&fs=1&vr=1&zoom=1&autorotate=-0.06&thumbs=3&margin=30&alpha=0.89&inst=0"
+      },
+      {
+        "name": "الطائف",
+        "image": "/images/Taif.jpg",
+        "link": "https://tourmakkah.viewin360.co/share/collection/7Z4tY?logo=1&info=0&logosize=40&fs=1&vr=1&zoom=1&autorotate=-0.06&thumbs=3&margin=30&alpha=0.89&inst=0"
+      },
+      {
+        "name": "الدمام",
+        "image": "/images/Dammam.jpg",
+        "link": "https://tourmakkah.viewin360.co/share/collection/7Z4tY?logo=1&info=0&logosize=40&fs=1&vr=1&zoom=1&autorotate=-0.06&thumbs=3&margin=30&alpha=0.89&inst=0"
+      }
+    ]
+  },
+  "newProjects": {
+    "title": "مشاريع جديدة",
+    "images": [
+      {
+        "heading": "مسجد قباء",
+        "details": "مسجد قباء هو مسجد يقع في المدينة المنورة، في منطقة الحجاز بالمملكة العربية السعودية."
+      },
+      {
+        "heading": "جبل أحد",
+        "details": "جبل أحد هو جبل يقع شمال المدينة، في منطقة الحجاز بالمملكة العربية السعودية."
+      },
+      {
+        "heading": "مقبرة البقيع",
+        "details": "مقبرة البقيع هي أقدم وأول مقبرة إسلامية في المدينة المنورة وتقع في منطقة الحجاز بالمملكة العربية السعودية."
+      },
+      {
+        "heading": "إطلالة الصحراء",
+        "details": "تجربة الاتساع الشاسع للمناظر الطبيعية القاحلة، والتي تعرض مساحات شاسعة من الرمال والتضاريس الصخرية تحت سماء واسعة، وتقع في قلب المنطقة الصحراوية."
+      },
+      {
+        "heading": "إطلالة السماء",
+        "details": "تجربة جمال الشروق والغروب النابض بالحياة بينما تغمر نفسك في هدوء السماء الواسعة."
+      },
+      {
+        "heading": "إطلالة الجبال",
+        "details": "تجربة هدوء الطبيعة بينما تستكشف المناظر الخلابة وتستمتع بهواء الجبال النقي."
+      },
+      {
+        "heading": "إطلالة الليل",
+        "details": "تجربة هدوء المساء بينما تستمتع بالمناظر المضيئة وسحر الأفق المتلألئ."
+      }
+    ],
+    "buttonText": "عرض"
+  },
+  "contactForm": {
+    "title": "تواصل معنا",
+    "subheading": "املأ النموذج وسيتواصل معك فريقنا خلال 24 ساعة",
+    "fields": {
+      "firstName": "الاسم الأول",
+      "lastName": "الاسم الأخير",
+      "email": "البريد الإلكتروني",
+      "subject": "الموضوع",
+      "message": "اكتب رسالتك..."
+    },
+    "buttonText": "إرسال"
+  }
+}
